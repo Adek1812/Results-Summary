@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/images/favicon-32x32.png"
+		/>
+
+		<title>Frontend Mentor | Results summary component</title>
+
+		<link rel="stylesheet" href="./css/main.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<div class="main-box">
+				<div class="result-box">
+					<h2 class="result-heading">Your Result</h2>
+					<div class="result-score">
+						<p class="user-score">76</p>
+						<p class="score">of 100</p>
+					</div>
+					<div class="result-summary">
+						<h2 class="result-summary-heading">Great</h2>
+						<p class="result-summary-heading-text">
+							You scored higher than 65% of the people who have taken these
+							tests
+						</p>
+					</div>
+				</div>
+
+				<div class="summary-box">
+					<div class="summary-box-content">
+						<h2 class="summary-heading">Summary</h2>
+
+						<div class="summary-results-boxes">
+							<div class="reaction-box">
+								<div class="reaction-box-text">
+									<img
+										src="./assets/images/icon-reaction.svg"
+										alt="lightning"
+									/>
+									<p class="title">Reaction</p>
+								</div>
+								<div class="summary-score">
+									<p class="summary-score-text">
+										<span class="bold-number">80</span>/100
+									</p>
+								</div>
+							</div>
+
+							<div class="memory-box">
+								<div class="memory-box-text">
+									<img src="./assets/images/icon-memory.svg" alt="brain" />
+									<p class="title">Memory</p>
+								</div>
+								<div class="summary-score">
+									<p class="summary-score-text">
+										<span class="bold-number">92</span>/100
+									</p>
+								</div>
+							</div>
+
+							<div class="verbal-box">
+								<div class="verbal-box-text">
+									<img
+										src="./assets/images/icon-verbal.svg"
+										alt=" the chat cloud"
+									/>
+									<p class="title">Verbal</p>
+								</div>
+								<div class="summary-score">
+									<p class="summary-score-text">
+										<span class="bold-number">61</span>/100
+									</p>
+								</div>
+							</div>
+
+							<div class="visual-box">
+								<div class="visual-box-text">
+									<img src="./assets/images/icon-visual.svg" alt="eya" />
+									<p class="title">Visual</p>
+								</div>
+								<div class="summary-score">
+									<p class="summary-score-text">
+										<span class="bold-number">72</span>/100
+									</p>
+								</div>
+							</div>
+						</div>
+						<button class="btn-summary">Continue</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
